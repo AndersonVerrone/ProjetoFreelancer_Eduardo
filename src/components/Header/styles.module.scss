@@ -1,0 +1,16 @@
+@import "../../styles/globalStyles.scss";
+
+.header{
+    width: 100%;
+    padding: 2rem 1rem;
+
+    >div {
+        @include title1;
+        max-width: 56.25rem;
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+}
