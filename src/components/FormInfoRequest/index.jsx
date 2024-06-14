@@ -21,6 +21,7 @@ export const FormInfoRequest = () => {
             <label htmlFor="PDF"></label>
             <input type="file" id="PDF" name="PDF" accept=".pdf" />
              
+            <button>Enviar</button>
         </form>
     )
 }
