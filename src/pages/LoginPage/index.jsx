@@ -1,3 +1,5 @@
+import style from "./styles.module.scss";
+
 export const LoginPage = () => {
     return (
         <>

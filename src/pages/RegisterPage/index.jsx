@@ -1,3 +1,4 @@
+import style from "./styles.module.scss";
 import { TemplatePage } from "../../components/TemplatePage"
 
 export const RegisterPage = () => {
