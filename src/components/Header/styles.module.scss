@@ -2,7 +2,7 @@
 
 .header{
     width: 100%;
-    padding: 2rem 1rem;
+    padding: 0.5rem 1rem;
 
     >div {
         @include title1;
@@ -12,5 +12,9 @@
         display: flex;
         justify-content: flex-start;
         align-items: center;
+
+        >img {
+            width: 100px;
+        }
     }
 }
